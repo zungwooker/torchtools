@@ -6,7 +6,7 @@ setup(
     description="A set of tools for PyTorch models and data handling",
     author="zungwooker",
     author_email="zungwooker@gmail.com",
-    packages=find_packages(),
+    packages=find_packages(include=['torchtools', 'torchtools.*']),
     install_requires=[
         'torch',
         'torchvision'

@@ -5,5 +5,6 @@
 ---
 
 ## How to install
-setup.py가 있는 디렉토리에서 pip install .
+* 해당 폴더가 있는 dir에서 pip install torchtools
+* 내용 업데이트 있을 때 마다 설치해줘야 함
 
