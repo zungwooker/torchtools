@@ -13,6 +13,5 @@ class MLP(nn.Module):
         
         self.layers = nn.Sequential(*layers, nn.Linear(d_prev, out_features))
         
-        
     def forward(self, x):
         return self.layers(x)
